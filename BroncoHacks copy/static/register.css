@@ -1,0 +1,265 @@
+@font-face {
+    font-family: fontType;
+    src:url(coolvetica.rg-regular.otf);
+}
+
+::placeholder {
+    color: #9c9c9c;
+    opacity: 1; /* Firefox */
+  }
+
+a {
+    color: rgb(60, 135, 56);
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgb(59, 59, 59);
+    background-image: url("BGGrup.png");
+} 
+
+.div-h1-tag {
+    position: absolute;
+    width: 125px;
+    margin-left: calc(20%);
+    margin-top: 0 px;
+}
+
+.h1-tag {
+    text-align: center;
+    font-size: 72px;
+    right: 50%;
+    object-position: center;
+}
+
+.div-main {
+    background: linear-gradient(to top, rgb(37, 37, 37, 0.8),rgb(44, 44, 44, 0.8));
+    position: absolute;
+    top: calc(50% - 375px);
+    right: calc(50% - 225px);
+    width: 450px;
+    height: 700px;
+    border: 5px solid rgb(60, 135, 56);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.Sign-In {
+    font-family: fontType;
+    font-size: 35px;
+    position: absolute;
+    height: 100px;
+    width: 400px;
+    right: calc(-25px);
+    top: calc(5%);
+    color: #cdecce;
+}
+
+.email-input-box {
+    background-color: rgb(246, 242, 243, 0);
+    height: 50px;
+    position: absolute;
+    top: calc(10% + 35px);
+    width:300px;
+    overflow:hidden;
+    right: calc(50% - 150px);
+    font-family: fontType;
+    font-size: 20px;
+    border: 1px solid rgb(60, 135, 56);
+    border-radius: 5px;
+    color: #cdecce;
+    padding: 10px;
+}
+
+.username-input-box {
+    background-color: rgb(246, 242, 243, 0);
+    height: 50px;
+    position: absolute;
+    top: calc(10% + 100px);
+    width:300px;
+    overflow:hidden;
+    right: calc(50% - 150px);
+    font-family: fontType;
+    font-size: 20px;
+    border: 1px solid rgb(60, 135, 56);
+    border-radius: 5px;
+    color: #cdecce;
+    padding: 10px;
+}
+
+.password-input-box {
+    background-color: rgb(246, 242, 243, 0);
+    height: 50px;
+    position: absolute;
+    top: calc(10% + 165px);
+    width:300px;
+    overflow:hidden;
+    right: calc(50% - 150px);
+    font-family: fontType;
+    font-size: 20px;
+    border: 1px solid rgb(60, 135, 56);
+    border-radius: 5px;
+    color: #cdecce;
+    padding: 10px;
+}
+
+.div-msc {
+    /*this is all the forget me and stuff*/
+    width: 300px;
+    color: #cdecce;
+    height: 50px;
+    position: absolute;
+    top: calc(50% + 150px);
+    right: calc(42% - 150px);
+    font-family: fontType;
+    font-size: 16px;
+}
+
+.div-button {
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #3c8738;
+    top: calc(45%);
+    right: calc(50% - 150px);
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.div-button-text {
+    font-family: fontType;
+    color: #cdecce;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+    top: calc(25%);
+    right: calc(50%);
+}
+
+.div-button:hover {
+    background-color: #305c2e;
+}
+
+.div-button label {
+    position: relative;
+    margin: 50%;
+}
+
+.register-button {
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #3c8738cc;
+    bottom: calc(10% + 340px);
+    right: calc(50% - 150px);
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+
+    font-family: fontType;
+    color: #cdecce;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.register-button:hover {
+    transform: scale(1.08);
+}
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #33333300;
+    position: absolute;
+    width:100px;
+    height:300px;
+    right:8%;
+    top:1%;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #305c2e;
+}
+
+.div-button label {
+    position: relative;
+    margin: 50%;
+}
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #33333300;
+    position: absolute;
+    width:100px;
+    height:300px;
+    right:8%;
+    top:1%;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #305c2e;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #3c8738;
+    color: white;
+  }
+
+  .burgerPic {
+    width:75px;
+    height:75px;
+  }

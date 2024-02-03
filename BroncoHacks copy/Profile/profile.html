@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="../static/reset.css">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="preload" href="UniSansHeavyCAPS.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="left">
+            <img src="profile imgs/BlankProfile.png" alt="user" width="100">
+            <h3 contenteditable="true">John Doe</h3>
+            <p>Cal Poly Pomona</p>
+            <p contenteditable="true"><i>Insert Bio</i></p>
+        </div>
+        <div class="right">
+
+            <div class="info">
+                <h2>Information</h2>
+                <div class="info_data">
+                    <div class="data">
+                        <h3>Email</h3>
+                        <p contenteditable="true">jdoe123@cpp.edu</p>
+                    </div>
+                    <div class="data">
+                        <h3>Discord</h3>
+                        <p contenteditable="true">j_doe#1234</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info">
+                <h2>Availability Schedule</h2>
+                <h4>Select Days You Are Busy</h4>          
+                <!-- Start of Schedule Buttons -->
+                <div class="info_data">
+                <ul>
+                    <li>
+                        <label>
+                            <input type="checkbox">
+                                <div class="icon-box">
+                                    <label>Sun</label>
+                                </div>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox">
+                                <div class="icon-box">
+                                    <label>Mon</label>
+                                </div>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox">
+                                <div class="icon-box">
+                                    <label>Tue</label>
+                                </div>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox">
+                                <div class="icon-box">
+                                    <label>Wed</label>
+                                </div>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox">
+                                <div class="icon-box">
+                                    <label>Thu</label>
+                                </div>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox">
+                                <div class="icon-box">
+                                    <label>Fri</label>
+                                </div>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox">
+                                <div class="icon-box">
+                                    <label>Sat</label>
+                                </div>
+                        </label>
+                    </li>
+                </ul>
+                </div>
+                <!-- End of Schedule Buttons -->
+            </div>
+
+        </div>
+    </div>
+
+    <div class="div-h1-tag">
+        <h1 class="h1-tag">
+            <img src="GrupLogo.png" alt="Logo">
+        </h1>
+    </div>
+
+    <div class="who-are-you">
+        <label>Who Are You Today?</label>
+    </div>
+
+    <form id="form">
+        <button class="profile-button" type="submit">Go!</button>
+    </form>
+    <script src="../javascript/profile.js"></script>
+
+    <div class="topnav">
+        <a class="burgerPic" onclick=myFunction()>
+            <img src="Hamburger.png" alt="X">
+        </a>
+            <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="profile.html">Profile</a>
+          <a href="../templates/login.html">Switch User</a>
+          <a href="../Hobbies/hobbies.html">Hobbies</a>
+        </div>
+          <i class="fa fa-bars"></i>
+        </a>
+        
+      </div>
+</body>
+</html>

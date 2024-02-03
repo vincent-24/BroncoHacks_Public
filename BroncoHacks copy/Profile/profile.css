@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Uni Sans Heavy CAPS";
+}
+
+.your-style {
+    font-family: 'Uni Sans Heavy CAPS';
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Everything below was created for Profile stuff */
+
+body{
+    background: #f3f3f3;
+}
+
+.wrapper{
+    position: fixed;
+    top: 49%;
+    left: 53.75%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    display: flex;
+}
+
+.wrapper .left{
+    
+    width: 20%;
+    background: rgb(60, 135, 56);
+    padding: 30px 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: #cdecce;
+
+}
+
+.wrapper .left img{
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.wrapper .left h3{
+    margin-bottom: 10px;
+}
+
+.wrapper .left p{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.wrapper .right{
+    width: 65%;
+    background: linear-gradient(to top, rgb(37, 37, 37, 0.8),rgb(44, 44, 44, 0.8));
+    border: 5px solid rgb(60, 135, 56);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 30px 25px;
+    color: #cdecce;
+
+}
+
+.wrapper .right .info,
+.wrapper .right .projects{
+    margin-bottom: 25px;
+}
+
+.wrapper .right .info h2,
+.wrapper .right .projects h2{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(60, 135, 56);
+    color: #cdecce;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.wrapper .right .info_data,
+.wrapper .right .projects_data{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-h1-tag {
+    position: absolute;
+    width: 125px;
+    margin-left: calc(-53.5%);
+    margin-top: calc(-45.5%);
+}
+
+.h1-tag {
+    text-align: center;
+    font-size: 72px;
+    right: 50%;
+    object-position: center;
+}
+
+/* Everything below was created for Buttons */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(59, 59, 59);
+    background-image: url("BGGrup.png");
+}
+/* ---- Start of Schedule Buttons ---- */
+ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+ul li{
+    list-style-type: none;
+    position: relative;
+    text-align: center;
+    margin: 5px;
+}
+ul li label{
+    position: relative;
+}
+
+ul li label input[type="icon-box"]{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+ul li label .icon-box{
+    width: 60px;
+    height: 60px;
+    color: black;
+    background-color: rgb(60, 135, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -2px -2px 5px rgba(58, 56, 56, 0.75), 3px 3px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    cursor: pointer;
+} /* Button Appearance Before Toggle */
+
+ul li label input[type="checkbox"]:checked ~ .icon-box{
+    color: #567862;
+    opacity: 0.95;
+    background-color: rgb(41, 85, 39);
+    box-shadow: inset -2px -2px 5px rgba(58, 56, 56, 0.75), inset 3px 3px 5px rgba(0, 0, 0, 0.3);
+} /* Button Appearance After Toggle */
+
+  input[type="checkbox"]:not(:checked), 
+  input[type="checkbox"]:checked {
+    position: absolute;
+    left: -9999%;
+}
+
+.who-are-you {
+    width: 400px;
+    font-family: fontType;
+    color: #cdecce;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+    top: calc(25% - 70px);
+    right: calc(50%-200px);
+    font-size: 40px;  
+}
+
+.div-button {
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #3c8738;
+    top: calc(75%);
+    right: calc(50% - 50px);
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.div-button-text {
+    font-family: fontType;
+    color: #cdecce;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+    top: calc(25%);
+    right: calc(50%);
+}
+
+.div-button:hover {
+    background-color: #305c2e;
+}
+
+.div-button label {
+    position: relative;
+    margin: 50%;
+}
+
+  /* ---- End Schedule Buttons ---- */
+  
+  .profile-button {
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #3c8738cc;
+    bottom: calc(10% + 50px);
+    right: calc(50% - 75px);
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+
+    font-family: fontType;
+    color: #cdecce;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.profile-button:hover {
+    transform: scale(1.08);
+}
+ 
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #33333300;
+    position: absolute;
+    width:100px;
+    height:300px;
+    right:8%;
+    top:1%;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #305c2e;
+}
+
+.div-button label {
+    position: relative;
+    margin: 50%;
+}
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #33333300;
+    position: absolute;
+    width:100px;
+    height:300px;
+    right:8%;
+    top:1%;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #305c2e;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #3c8738;
+    color: white;
+  }
+
+  .burgerPic {
+    width:75px;
+    height:75px;
+  }
